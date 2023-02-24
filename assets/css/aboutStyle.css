@@ -1,0 +1,69 @@
+
+.elGrid {
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 8px;  
+    background-color: #FFF;
+  }
+  
+  
+  .elGrid div {
+    background-color: #00002E;
+  }
+  
+  .elGrid h3 {
+    margin: 0%;
+    background-color: #00002E;
+  }
+  
+  #techTitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 3%;
+  }
+  
+  .fitDiv {
+    padding: 5%;
+  }
+  
+  .techDiv {
+    padding: 5%;
+  }
+  
+  #fitTitle {
+    padding-left: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 3%;
+  
+  }
+  
+  .techColumn {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .fitColumn {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  #science {
+    grid-row: 5;
+  }
+  
+  #maths {
+    grid-row: 6;
+  }
+  
+  .test {
+    padding: 0%;
+  }
+  
+  #english {
+    grid-row: 7;
+  }

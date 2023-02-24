@@ -1,0 +1,76 @@
+
+.elGrid {
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 8px;  
+    background-color: #FFF;
+  }
+  
+  
+  .elGrid div {
+    background-color: #00002E;
+  }
+  
+  .elGrid h3 {
+    margin: 0%;
+    background-color: #00002E;
+  }
+  
+  #QualTitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 3%;
+  }
+  
+  .gridInsideQual {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  #test1 {
+    grid-row: 3;
+  }
+  
+  #aLevelTitle {
+    grid-column: 2;
+  }
+  
+  .XpDiv {
+    padding: 5%;
+  }
+  
+  #SkillsTitle {
+    padding-left: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 3%;
+  }
+  
+  .techColumn {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .fitColumn {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .epqTitle {
+    text-align: center;
+  }
+  
+  .qeContent {
+    font-size: 20px;
+  }
+  
+  #epqTitleH3 {
+    padding-top: 5%;
+  }
+  
+  
