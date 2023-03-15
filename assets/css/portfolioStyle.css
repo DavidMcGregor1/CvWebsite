@@ -17,4 +17,81 @@
     margin-top: 3%;
     text-align: center;
   }
+
+  #portfolioDisplays {
+    padding-top: 10%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
   
+  #portfolioDisplays div {
+    padding: 15px;
+    width: 600px;
+    border-radius: 20px;
+  }
+
+  
+  #calculatorApp {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #23236D;
+  }
+
+  #epqTitleH3 {
+    text-align: center;
+    color: white;
+  }
+
+  #newPortfolio1 {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #23236D;
+  }
+
+  #newPortfolio2 {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #23236D;
+  }
+
+  .portfolioIcon {
+    font-size: 70px;
+    padding: 0%;
+    color: white;
+  }
+
+  #viewProjectBtn {
+    height: 50px;
+    width: 180px;
+    border-radius: 40px;
+    border: none;
+    background-color: #060537;
+    color: #FFF;
+    font-size: larger ;
+  }
+
+  #viewSrcCodeBtn {
+    height: 50px;
+    width: 180px;
+    border-radius: 40px;
+    border: none;
+    background-color: #060537;
+    color: #FFF;
+    font-size: larger ;
+  }
+  
+  .makeCenter {
+    text-align: center;
+  }
+
+

@@ -67,10 +67,89 @@
   
   .qeContent {
     font-size: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
   }
   
   #epqTitleH3 {
     padding-top: 5%;
   }
+
   
   
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 252, 252, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    
+  }
+  
+  .popup h2 {
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .popup .close:hover {
+    color: white;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+/*   
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  } */
+
+  #moreDetailButton {
+    text-align: center;
+  }
+
+  /* .titleToMakeSmaller {
+
+    font-size: 18px;
+  } */
+
+  .epqListItem {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }

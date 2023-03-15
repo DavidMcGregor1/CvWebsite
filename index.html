@@ -6,6 +6,7 @@
 
         <!--=============== BOXICONS ===============-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -114,15 +115,15 @@
 
                     
                     <div class="fitDiv">
-                        <p class="bigger">I have a passion for fitness and have always enjoyed exercise</p>
+                        <p class="bigger">I have a passion for fitness and have always enjoyed exercise.</p>
                         <br>
                         <p class="bigger">I try to ensure I go to the gym 5x a week as well as other forms
-                            of activity</p>
+                            of activity.</p>
                             <br>
                             <p class="bigger">I have been training in the martial art of TaeKwonDo for 14 years and have competed nationally and internationally.</p>
                             <br>
                             <p class="bigger">During this time I have achieved 3rd degree black-belt and 
-                                represented England in squad matches</p>
+                                represented England in squad matches.</p>
                                 <br>
                                 <p class="bigger">I have obtained many valuable skills and qualifications from 
                                     training and teaching TaeKwonDo, 
@@ -176,11 +177,39 @@
                             
                         
                         <!-- <br><br> -->
-                        <h3 id="epqTitleH3" class="epqTitle underline titleTest">Extended Project Qualification:</h3>
+                        <!-- <h3  href="#popup1" id="epqTitleH3" class="epqTitle underline titleTest">Extended Project Qualification:</h3> -->
+                        <h3 id="epqTitleH3" class="epqTitle underline titleTest titleToMakeSmaller"><a href="#popup1"> Extended Project Qualification </a></h3>
+                        <!-- <a href="#popup1" class="epqTitle underline titleTest" id="epqTitleH3">Extended Project Qualification</a> -->
                         <p class="epqTitle qeContent">5000 word essay and presentation on Artifical Intelligence</p>
                         <p class="epqTitle qeContent">Grade Achieved: B</p>
+                        <p id="epqTitleH3" class=" underline titleTest"><a href="#popup1">More Detail</a></p>
                         
-                        
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <br>
+                                <h2>Extended Project Qualification</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <br><br>
+                                    <p class="makeWhite bigger">The EPQ was an optional piece of work to go along side my A-Levels.</p>
+                                    <br>
+                                    <p class="makeWhite bigger">I chose to do the EPQ as I knew it would give me good experience in extended writing and research.</p>
+                                    <br>
+                                    <p class="makeWhite bigger">I chose to research and write about Artificial Intelligence. This is because it is an area I am particularly interested in and one that is constantly growing.</p>
+                                    <br>
+                                    <p class="makeWhite bigger">Throughout my experience doing the EPQ I learnt many valuable skills these included:</p>
+                                    <br>
+                                    <ul class="makeWhite bigger">
+
+                                        <li class="epqListItem makeWhite bigger">How to properly conduct and document research</li>
+                                        <li class="epqListItem makeWhite bigger">How to plan and scructure an essay</li>
+                                        <li class="epqListItem makeWhite bigger">How to manage my time efficiently</li>
+                                        <li class="epqListItem makeWhite bigger">How to log progress over a prolonged period of time</li>
+                                        <li class="epqListItem makeWhite bigger">How to present confidently infront of a group of people</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
 
                         
                       
@@ -223,6 +252,38 @@
                 <div class="cvLinkDiv">
                     <a class="underline" id="cvLink" href="data/DavidMcGregor_CV.docx" target="_blank">Download My CV</a>
                 </div>
+
+                <div id="portfolioDisplays">
+
+                    <div id="calculatorApp">
+                        <p><i class="material-icons portfolioIcon">calculate</i></p>
+                        <p class="bigger makeCenter ">Calculator App</p>
+                        <br><br>
+                        <button id="viewProjectBtn" onclick=" window.open('https://calculatorapp-8yfh.onrender.com','_blank')">View Project</button>
+                        <button id="viewSrcCodeBtn" onclick=" window.open('https://github.com/DavidMcGregor1/CalculatorApp','_blank')">View Source Code</button>
+                    </div>
+
+                    <div id="newPortfolio1">
+                        <p><i class="material-icons portfolioIcon">fitness_center</i></p>
+                        <p class="bigger makeCenter">Gym Tracking App</p>
+                        <br><br>
+                        <button id="viewProjectBtn">View Project</button>
+                        <button id="viewSrcCodeBtn">View Source Code</button>
+                    </div>
+
+                    <div id="newPortfolio2">
+                        <p><i class="material-icons portfolioIcon">sports_esports</i></p>
+                        <p class="bigger makeCenter">Platformer Game</p>
+                        <br><br>
+                        <button id="viewProjectBtn">View Project</button>
+                        <button id="viewSrcCodeBtn">View Source Code</button>
+                    </div>
+
+
+                </div>
+
+
+                
 
 
             </section>
