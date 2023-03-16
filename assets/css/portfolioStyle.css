@@ -19,7 +19,7 @@
 }
 
 #portfolioDisplays {
-  padding-top: 10%;
+  padding-top: 5%;
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -28,6 +28,22 @@
 #portfolioDisplays div {
   padding: 15px;
   width: 600px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+
+#portfolioDisplay2 {
+  padding-top: 5%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+#portfolioDisplay2 div {
+  padding: 15px;
+  width: 600px;
+  height: 350px;
   border-radius: 20px;
 }
 
@@ -46,7 +62,7 @@ background-color: #23236D;
   color: white;
 }
 
-#newPortfolio1 {
+.portfolioProject {
   display: flex;
 flex-direction: column;
 justify-content: center;
@@ -55,14 +71,6 @@ gap: 10px;
 background-color: #23236D;
 }
 
-#newPortfolio2 {
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-background-color: #23236D;
-}
 
 .portfolioIcon {
   font-size: 70px;
