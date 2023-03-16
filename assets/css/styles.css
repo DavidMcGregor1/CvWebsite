@@ -190,6 +190,14 @@ h3 {
     /* margin-left: 1rem;
     margin-right: 1rem; */
   }
+
+  #DmTitle {
+    padding-top: 2%;
+    color: orange;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 55px;
+  }
   
 .bigger {
   font-size: 18px;

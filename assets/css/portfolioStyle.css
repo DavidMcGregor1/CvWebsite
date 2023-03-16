@@ -1,97 +1,97 @@
 .cvLinkDiv {
-    margin-top: 10%;
-    text-align: center;
-  }
-  
-  #cvLink {
-    font-size: 20px;
-    color: #FFF;
-  }
-  
-  #emailLink {
-    font-size: 20px;
-    color: #FFF;
-  }
-  
-  .phoneLinkDev {
-    margin-top: 3%;
-    text-align: center;
-  }
+  margin-top: 10%;
+  text-align: center;
+}
 
-  #portfolioDisplays {
-    padding-top: 10%;
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-  }
-  
-  #portfolioDisplays div {
-    padding: 15px;
-    width: 600px;
-    border-radius: 20px;
-  }
+#cvLink {
+  font-size: 20px;
+  color: #FFF;
+}
 
-  
-  #calculatorApp {
-    display: flex;
-  flex-direction: column;
+#emailLink {
+  font-size: 20px;
+  color: #FFF;
+}
+
+.phoneLinkDev {
+  margin-top: 3%;
+  text-align: center;
+}
+
+#portfolioDisplays {
+  padding-top: 10%;
+  display: flex;
+  gap: 40px;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background-color: #23236D;
-  }
+}
 
-  #epqTitleH3 {
-    text-align: center;
-    color: white;
-  }
+#portfolioDisplays div {
+  padding: 15px;
+  width: 600px;
+  border-radius: 20px;
+}
 
-  #newPortfolio1 {
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background-color: #23236D;
-  }
 
-  #newPortfolio2 {
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background-color: #23236D;
-  }
+#calculatorApp {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: #23236D;
+}
 
-  .portfolioIcon {
-    font-size: 70px;
-    padding: 0%;
-    color: white;
-  }
+#epqTitleH3 {
+  text-align: center;
+  color: white;
+}
 
-  #viewProjectBtn {
-    height: 50px;
-    width: 180px;
-    border-radius: 40px;
-    border: none;
-    background-color: #060537;
-    color: #FFF;
-    font-size: larger ;
-  }
+#newPortfolio1 {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: #23236D;
+}
 
-  #viewSrcCodeBtn {
-    height: 50px;
-    width: 180px;
-    border-radius: 40px;
-    border: none;
-    background-color: #060537;
-    color: #FFF;
-    font-size: larger ;
-  }
-  
-  .makeCenter {
-    text-align: center;
-  }
+#newPortfolio2 {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: #23236D;
+}
+
+.portfolioIcon {
+  font-size: 70px;
+  padding: 0%;
+  color: white;
+}
+
+#viewProjectBtn {
+  height: 50px;
+  width: 180px;
+  border-radius: 40px;
+  border: none;
+  background-color: #060537;
+  color: #FFF;
+  font-size: larger ;
+}
+
+#viewSrcCodeBtn {
+  height: 50px;
+  width: 180px;
+  border-radius: 40px;
+  border: none;
+  background-color: #060537;
+  color: #FFF;
+  font-size: larger ;
+}
+
+.makeCenter {
+  text-align: center;
+}
 
 
