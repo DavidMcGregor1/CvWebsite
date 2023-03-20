@@ -44,7 +44,7 @@
 
   #DmTitle {
     padding-top: 0%;
-    color: purple;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-weight: bolder;
     font-size: 55px;
@@ -86,7 +86,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 10px;
-background-color: #23236D;
+background-color: #463A92;
 }
 
 
@@ -96,7 +96,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 10px;
-background-color: #23236D;
+background-color: #463A92;
 }
 
 #homePortfolio2 {
@@ -105,7 +105,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 10px;
-background-color: #23236D;
+background-color: #463A92;
 }
 
 .homeportfolioIcon {
