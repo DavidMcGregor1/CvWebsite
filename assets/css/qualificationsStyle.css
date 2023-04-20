@@ -1,162 +1,162 @@
 
 .elGrid {
-    padding-top: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr auto;
-    gap: 8px;  
-    background-color: #FFF;
-  }
-  
-  
-  .elGrid div {
-    background-color: #00002E;
-  }
-  
-  .elGrid h3 {
-    margin: 0%;
-    background-color: #00002E;
-  }
-  
-  #QualTitle {
-    color: #FFF;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 3%;
-  }
-  
-  .gridInsideQual {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto auto auto 1fr;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  #test1 {
-    grid-row: 3;
-  }
-  
-  #aLevelTitle {
-    grid-column: 2;
-  }
-  
-  .XpDiv {
-    padding: 5%;
-  }
-  
-  #SkillsTitle {
-    padding-left: 10px;
-    color: #FFF;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 3%;
-  }
-  
-  .techColumn {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  
-  .fitColumn {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  
-  .epqTitle {
-    text-align: center;
-  }
-  
-  .qeContent {
-    font-size: 20px;
-    margin-top: 3%;
-    margin-bottom: 3%;
-  }
-  
-  #epqTitleH3 {
-    padding-top: 5%;
-  }
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 8px;  
+  background-color: #FFF;
+}
 
-  
-  
-  
-  .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(255, 252, 252, 0.7);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
-  }
+
+.elGrid div {
+  background-color: #00002E;
+}
+
+.elGrid h3 {
+  margin: 0%;
+  background-color: #00002E;
+}
+
+#QualTitle {
+  color: #FFF;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 3%;
+}
+
+.gridInsideQual {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+#test1 {
+  grid-row: 3;
+}
+
+#aLevelTitle {
+  grid-column: 2;
+}
+
+.XpDiv {
+  padding: 5%;
+}
+
+#SkillsTitle {
+  padding-left: 10px;
+  color: #FFF;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 3%;
+}
+
+.techColumn {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.fitColumn {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.epqTitle {
+  text-align: center;
+}
+
+.qeContent {
+  font-size: 20px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#epqTitleH3 {
+  padding-top: 5%;
+}
 
 
 
 
-  .popup {
-    margin: 70px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    width: 50%;
-    position: relative;
-    
-  }
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 252, 252, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
   
-  .popup h2 {
-    text-align: center;
-    margin-top: 0;
-    color: white;
-    font-family: Tahoma, Arial, sans-serif;
-  }
-  .popup .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-  }
-  .popup .close:hover {
-    color: white;
-  }
-  .popup .content {
-    max-height: 30%;
-    overflow: auto;
-  }
+}
+
+.popup h2 {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.popup .close:hover {
+  color: white;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
 /*   
-  @media screen and (max-width: 700px){
-    .box{
-      width: 70%;
-    }
-    .popup{
-      width: 70%;
-    }
-  } */
-
-  #moreDetailButton {
-    text-align: center;
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
   }
-
-  /* .titleToMakeSmaller {
-
-    font-size: 18px;
-  } */
-
-  .epqListItem {
-    margin-top: 2%;
-    margin-bottom: 2%;
+  .popup{
+    width: 70%;
   }
+} */
 
-  #epqLink {
-    margin-left: 35%;
-    text-align: center;
-    font-size: 20px;
-    color: #FFF;
-  }
+#moreDetailButton {
+  text-align: center;
+}
+
+/* .titleToMakeSmaller {
+
+  font-size: 18px;
+} */
+
+.epqListItem {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#epqLink {
+  margin-left: 35%;
+  text-align: center;
+  font-size: 20px;
+  color: #FFF;
+}
