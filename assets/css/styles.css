@@ -129,6 +129,8 @@ h3 {
   color: white;
 }
 
+
+
 /*=============== HEADER ===============*/
 .header {
   position: fixed;
@@ -250,7 +252,7 @@ p {
     bottom: 0;
     left: 0;
     /* background-color: var(--container-color); */
-    background-color: red;
+    background-color: #16171A;
 
     box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
     width: 100%;

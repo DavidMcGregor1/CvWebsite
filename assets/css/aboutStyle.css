@@ -19,11 +19,20 @@
     padding-bottom: 3%;
   }
 
+  .aboutMeMobileSize {
+    font-size: 19.5px;
+    color: white;
+  }
+
   #aboutMeMobile {
     display: none;
   }
 
-  @media screen and (max-width: 524px) {
+  .aboutMeMobileText {
+    padding-left: 3%;
+  }
+
+  @media screen and (max-width: 617px) {
     .elGrid {
       display: none;
     }
