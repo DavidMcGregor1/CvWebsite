@@ -7,6 +7,43 @@
     gap: 8px;  
     background-color: #FFF;
   }
+
+  .tttest {
+    background-color: blueviolet;
+  }
+
+  #techTitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 3%;
+  }
+
+  #aboutMeMobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 524px) {
+    .elGrid {
+      display: none;
+    }
+
+    #techTitle {
+      color: orange;
+    }
+
+    #Workouts {
+      display: none;
+    }
+
+    #aboutMeMobile {
+      display: inline;
+    }
+
+
+
+    
+  }
   
   
   .elGrid div {
@@ -18,12 +55,7 @@
     background-color: #00002E;
   }
   
-  #techTitle {
-    color: #FFF;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 3%;
-  }
+  
   
   .fitDiv {
     padding: 5%;
