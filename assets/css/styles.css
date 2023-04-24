@@ -66,6 +66,10 @@ a {
   padding: 4.5rem 0 2rem;
 }
 
+.makeBlack {
+  color: black;
+}
+
 .section__title {
   font-size: var(--h1-font-size);
   color: white;
@@ -91,6 +95,8 @@ a {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+
 
 
 
