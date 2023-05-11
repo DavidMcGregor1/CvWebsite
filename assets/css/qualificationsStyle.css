@@ -226,7 +226,7 @@
 
 
 
-@media screen and (max-width: 617px) {
+@media screen and (max-width: 630px) {
   .elGrid {
     display: none;
   }
@@ -243,7 +243,6 @@
     display: inline;
   }
 
-
-
   
 }
+

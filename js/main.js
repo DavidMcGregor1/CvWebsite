@@ -26,6 +26,19 @@ if (window.matchMedia("(max-width: 617px)").matches) {
   console.log("workouts -> " + qualificationsNavLink.href);
 }
 
+// <!---------- Portfolio ---------!>
+
+var portfolioNavLink = document.getElementById("portfolioNavLink");
+
+if (window.matchMedia("(max-width: 1217px)").matches) {
+  console.log("under 524px");
+  portfolioNavLink.href = "#portfolioMobile";
+  console.log("mobile -> " + portfolioNavLink.href);
+} else {
+  portfolioNavLink.href = "#Account";
+  console.log("workouts -> " + portfolioNavLink.href);
+}
+
 function openForm() {
   document.getElementById("myForm").style.display = "block";
   document.getElementById("epqMobileText").style.display = "none";

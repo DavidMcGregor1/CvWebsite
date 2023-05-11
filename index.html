@@ -50,7 +50,7 @@
                 </li>
 
                 <li class="nav__item noListStyle">
-                    <a href="#Account" class="nav__link">
+                    <a href="#Account" id="portfolioNavLink" class="nav__link">
                         <i class='material-icons makeWhite'>work</i>
                         <span class="nav__name makeWhite">Portfolio</span>
                     </a>
@@ -179,7 +179,7 @@
 
         <!--=============== Qualifications ===============-->
         <section class="container section section__height" id="Statistics">
-            <h2 class="section__title">Qualifactions / Experience</h2>
+            <h2 id="Qual-ExpTitle" class="section__title">Qualifactions / Experience</h2>
 
 
 
@@ -345,7 +345,9 @@
 
 
         <!--=============== Portfolio ===============-->
-        <section class="newPortfolioContainer section section__height" id="Account">
+        <!-- <section class="newPortfolioContainer section section__height" id="Account"> -->
+            <section class="container section section__height" id="Account">
+
             <h2 class="section__title">Portfolio</h2>
 
 
@@ -366,13 +368,6 @@
                         Code</button>
                 </div>
 
-                <!-- <div class="portfolioProject">
-                        <p><i class="material-icons portfolioIcon">fitness_center</i></p>
-                        <p class="bigger makeCenter">Gym Tracking App</p>
-                        <br><br>
-                        <button id="viewProjectBtn">View Project</button>
-                        <button id="viewSrcCodeBtn">View Source Code</button>
-                    </div> -->
 
                 <div class="portfolioProject">
                     <p><i class="material-icons portfolioIcon">timer</i></p>
@@ -414,21 +409,79 @@
                 </div>
 
 
-                <!-- <div class="portfolioProject">
-                        <p><i class="material-icons portfolioIcon">fitness_center</i></p>
-                        <p class="bigger makeCenter">new project</p>
-                        <br><br>
-                        <button id="viewProjectBtn">View Project</button>
-                        <button id="viewSrcCodeBtn">View Source Code</button>
-                    </div> -->
-
-
-
-
             </div>
 
-
         </section>
+
+
+
+
+        <section class="container section section__height" id="portfolioMobile">
+            <h2 id="portfolioMobileHeader" class="section__title">Portfolio</h2>
+
+            <div id="portfolioMobileGrid">
+                
+                <div class="portfolioProject">
+                    <p><i class="material-icons portfolioIcon">calculate</i></p>
+                    <p class="bigger makeCenter ">Calculator App</p>
+                    <br><br>
+                    <button id="viewProjectBtn"
+                        onclick=" window.open('https://calculatorapp-8yfh.onrender.com','_blank')">View Project</button>
+                    <button id="viewSrcCodeBtn"
+                        onclick=" window.open('https://github.com/DavidMcGregor1/CalculatorApp','_blank')">View Source
+                        Code</button>
+                </div>
+
+                <div class="portfolioProject">
+                    <p><i class="material-icons portfolioIcon">timer</i></p>
+                    <p class="bigger makeCenter">Stopwatch App</p>
+                    <br><br>
+                    <button id="viewProjectBtn"
+                        onclick=" window.open('https://david-mcgregor-stopwatch-app.onrender.com/','_blank')">View
+                        Project</button>
+                    <button id="viewSrcCodeBtn"
+                        onclick=" window.open('https://github.com/DavidMcGregor1/StopwatchApp','_blank')">View Source
+                        Code</button>
+                </div>
+
+                <div class="portfolioProject">
+                    <p><i class="material-icons portfolioIcon">monetization_on</i></p>
+                    <p class="bigger makeCenter">Coin Flipper App</p>
+                    <br><br>
+                    <button id="viewProjectBtn"
+                        onclick=" window.open('https://david-mcgregor-coin-flipper-app.onrender.com','_blank')">View
+                        Project</button>
+                    <button id="viewSrcCodeBtn"
+                        onclick=" window.open('https://github.com/DavidMcGregor1/CoinFlipperApp','_blank')">View Source
+                        Code</button>
+                </div>
+
+                <div class="portfolioProject">
+                    <p><i class="material-icons portfolioIcon">assignment</i></p>
+                    <p class="bigger makeCenter">Kanban Board</p>
+                    <br><br>
+                    <button id="viewProjectBtn"
+                        onclick=" window.open('https://david-mcgregor-kanban-board.onrender.com','_blank')">View
+                        Project</button>
+                    <button id="viewSrcCodeBtn"
+                        onclick=" window.open('https://github.com/DavidMcGregor1/SprintBoard','_blank')">View Source
+                        Code</button>
+                </div>
+
+                
+            </div>
+
+            
+            
+        </section>
+
+
+
+
+
+
+
+
 
         <!--=============== Contact ===============-->
 
