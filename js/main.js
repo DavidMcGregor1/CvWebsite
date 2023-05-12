@@ -9,7 +9,7 @@ if (window.matchMedia("(max-width: 617px)").matches) {
   aboutMeNavLink.href = "#aboutMeMobile";
   console.log("mobile -> " + aboutMeNavLink.href);
 } else {
-  aboutMeNavLink.href = "#Workouts";
+  aboutMeNavLink.href = "#AboutMe";
   console.log("workouts -> " + aboutMeNavLink.href);
 }
 
@@ -22,7 +22,7 @@ if (window.matchMedia("(max-width: 617px)").matches) {
   qualificationsNavLink.href = "#qualificationsMobile";
   console.log("mobile -> " + qualificationsNavLink.href);
 } else {
-  qualificationsNavLink.href = "#Statistics";
+  qualificationsNavLink.href = "#Qualifications";
   console.log("workouts -> " + qualificationsNavLink.href);
 }
 
@@ -35,7 +35,7 @@ if (window.matchMedia("(max-width: 1217px)").matches) {
   portfolioNavLink.href = "#portfolioMobile";
   console.log("mobile -> " + portfolioNavLink.href);
 } else {
-  portfolioNavLink.href = "#Account";
+  portfolioNavLink.href = "#Portfolio";
   console.log("workouts -> " + portfolioNavLink.href);
 }
 
