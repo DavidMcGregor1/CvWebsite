@@ -1,5 +1,5 @@
 
-.elGrid {
+.aboutMeGrid {
     padding-top: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,8 +34,8 @@
     padding-left: 3%;
   }
 
-  @media screen and (max-width: 617px) {
-    .elGrid {
+  @media screen and (max-width: 720px) {
+    .aboutMeGrid {
       display: none;
     }
 
@@ -57,11 +57,11 @@
   }
   
   
-  .elGrid div {
+  .aboutMeGrid div {
     background-color: #00002E;
   }
   
-  .elGrid h3 {
+  .aboutMeGrid h3 {
     margin: 0%;
     background-color: #00002E;
   }

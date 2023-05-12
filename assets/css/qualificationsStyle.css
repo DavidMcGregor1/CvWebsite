@@ -1,5 +1,5 @@
 
-.elGrid {
+.qualificationsGrid {
   padding-top: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -9,11 +9,11 @@
 }
 
 
-.elGrid div {
+.qualificationsGrid div {
   background-color: #00002E;
 }
 
-.elGrid h3 {
+.qualificationsGrid h3 {
   margin: 0%;
   background-color: #00002E;
 }
@@ -188,10 +188,10 @@
 }
 
 .form-container {
-  max-width: 600px;
+  width: 100%;
   height: 430px;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(142, 15, 15);
 }
 
 
@@ -220,14 +220,14 @@
 .epqFormText {
   
     font-size: 18px;
-    color: black;
+    color: rgb(42, 177, 55);
   
 }
 
 
 
-@media screen and (max-width: 630px) {
-  .elGrid {
+@media screen and (max-width: 720px) {
+  .qualificationsGrid {
     display: none;
   }
 
@@ -241,6 +241,36 @@
 
   #qualificationsMobile {
     display: inline;
+  }
+
+  
+}
+
+@media screen and (max-width: 655px) {
+  
+  .epqFormText {
+    color: aqua;
+    font-size: 17px;
+  }
+
+  
+}
+
+@media screen and (max-width: 585px) {
+  
+  .epqFormText {
+    color: rgb(179, 24, 120);
+    font-size: 16px;
+  }
+
+  
+}
+
+@media screen and (max-width: 547px) {
+  
+  .epqFormText {
+    color: rgb(32, 171, 231);
+    font-size: 15px;
   }
 
   
